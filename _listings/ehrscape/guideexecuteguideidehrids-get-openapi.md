@@ -6,14 +6,14 @@ info:
   title: Ehr Scape Clinical Decision Support APIs Execute guide on given EHR IDs
   description: Execute guide on given ehr ids.
   version: 1.0.0
-host: rest.ehrscape.com
-basePath: /ThinkCDS/services/CDSResources
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: rest.ehrscape.com
+basePath: /ThinkCDS/services/CDSResources
 paths:
   /guide:
     get:

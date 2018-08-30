@@ -7,14 +7,14 @@ info:
     guide execution result.
   description: Toggles default behaviour of persisting guide execution result..
   version: 1.0.0
-host: rest.ehrscape.com
-basePath: /ThinkCDS/services/CDSResources
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: rest.ehrscape.com
+basePath: /ThinkCDS/services/CDSResources
 paths:
   /guide:
     get:

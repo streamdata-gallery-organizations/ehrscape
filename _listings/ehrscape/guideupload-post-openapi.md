@@ -6,14 +6,14 @@ info:
   title: Ehr Scape Clinical Decision Support APIs Uploads new guide definition.
   description: Uploads new guide definition..
   version: 1.0.0
-host: rest.ehrscape.com
-basePath: /ThinkCDS/services/CDSResources
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: rest.ehrscape.com
+basePath: /ThinkCDS/services/CDSResources
 paths:
   /guide:
     get:
